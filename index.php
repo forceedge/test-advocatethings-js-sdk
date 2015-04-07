@@ -18,12 +18,12 @@ window.advocate_things_data = {
         type="text/javascript"></script>
 
 <script>
-// jQuery(function () {
-//     // DOM is loaded
-//          AT.sendTouchpoint('page_load', {
-//                  _at: { user_id: jQuery('#name').val() }
-//          })
-// });
+jQuery(function () {
+    // DOM is loaded
+         AT.sendTouchpoint('page_load', {
+                 _at: { user_id: jQuery('#name').val() }
+         })
+});
 </script>
 </head>
 
