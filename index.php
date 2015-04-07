@@ -32,14 +32,14 @@ document.querySelector('#banner-img')
             user_id: '55',
             email: 'wahab.qureshi+jsSDKtest@digitalanimal.com'
         }
-    });
+    }, alert(100));
   });
 </script>
 </head>
 
 <body>
-Testing the sdk
-Banner image hover test
+Testing the sdk <br />
+Banner image hover test <br />
 <img id="banner-img" src="http://www.vector-finder.com/site-images/too_big/fantasy_banner_vector.jpg" />
 </body>
 
