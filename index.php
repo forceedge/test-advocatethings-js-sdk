@@ -24,6 +24,14 @@ jQuery(function () {
                  _at: { user_id: jQuery('#name').val() }
          })
 });
+</script>
+</head>
+
+<body>
+Testing the sdk <br />
+Banner image hover test <br />
+<img id="banner-img" src="http://www.vector-finder.com/site-images/too_big/fantasy_banner_vector.jpg" />
+<script>
 document.querySelector('#banner-img')
   .addEventListener('hover', function hoverListener() {
     AT.send({
@@ -34,13 +42,7 @@ document.querySelector('#banner-img')
         }
     }, alert(100));
   });
-</script>
-</head>
-
-<body>
-Testing the sdk <br />
-Banner image hover test <br />
-<img id="banner-img" src="http://www.vector-finder.com/site-images/too_big/fantasy_banner_vector.jpg" />
+  </script>
 </body>
 
 </html>
