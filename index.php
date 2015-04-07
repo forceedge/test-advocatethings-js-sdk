@@ -24,11 +24,23 @@ jQuery(function () {
                  _at: { user_id: jQuery('#name').val() }
          })
 });
+document.querySelector('#banner-img')
+  .addEventListener('hover', function hoverListener() {
+    AT.send({
+        _at: {
+            touchpoint: 'banner-image-hover',
+            user_id: '55',
+            email: 'wahab.qureshi+jsSDKtest@digitalanimal.com'
+        }
+    });
+  });
 </script>
 </head>
 
 <body>
 Testing the sdk
+Banner image hover test
+<img id="banner-img" src="http://www.vector-finder.com/site-images/too_big/fantasy_banner_vector.jpg" />
 </body>
 
 </html>
