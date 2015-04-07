@@ -10,7 +10,7 @@ jQuery(function () {
     // DOM is loaded
          AT.sendTouchpoint('page_load', {
                  _at: { user_id: jQuery('#name').val() }
-         })
+         });
 });
 </head>
 
