@@ -46,6 +46,10 @@ document.querySelector('#banner-img')
     });
   });
   </script>
+
+<br />
+<a href="another.php">click me</a>
+
 </body>
 
 </html>
