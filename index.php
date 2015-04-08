@@ -5,7 +5,8 @@
 <script type="text/javascript">
 window.advocate_things_data = {
    _at: {
-     user_id: '56'
+     user_id: '56',
+     user_email: 'wahab.qureshi@digitalanimal.com'
    },
    page: {
      id: '23',
