@@ -34,7 +34,7 @@ window.advocate_things_data = {
   <script type="text/javascript">
     AT.addEventListener('SharepointSaved', function (meta) {
       var token = meta[0].token;
-      jQuery('#link').attr('href', jQuery('#link').attr('href')+token);
+      jQuery('#link').attr('href', jQuery('#link').attr('href')+ "?DA=" + token);
     });
   </script>
 
