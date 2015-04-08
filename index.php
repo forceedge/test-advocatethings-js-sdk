@@ -39,8 +39,11 @@ document.querySelector('#banner-img')
             touchpoint: 'banner-image-hover',
             user_id: '55',
             email: 'wahab.qureshi+jsSDKtest@digitalanimal.com'
+        },
+        what: {
+          name: 'Wahab Qureshi'
         }
-    }, alert(100));
+    });
   });
   </script>
 </body>
