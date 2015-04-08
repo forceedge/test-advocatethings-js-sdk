@@ -18,7 +18,6 @@ window.advocate_things_data = {
         type="text/javascript"></script>
 
 <script>
-jQuery('#link').attr('href', jQuery('#link').attr('href')+window.advocate_things_data.shareId);
 </script>
 </head>
 
@@ -34,7 +33,8 @@ jQuery('#link').attr('href', jQuery('#link').attr('href')+window.advocate_things
 
   <script type="text/javascript">
     AT.addEventListener('SharepointSaved', function (meta) {
-      console.log(JSON.stringify(meta));
+      var token = meta[0].token;
+      jQuery('#link').attr('href', jQuery('#link').attr('href')+token);
     });
   </script>
 
