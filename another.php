@@ -4,7 +4,7 @@
 <script>
 window.advocate_things_data = {
    _at: {
-     touchpoint_name: 'sameUrlTouchpointandSharepoint',
+     touchpoint_name: 'tp_garage',
      email: 'friend@digitalanimal.com'
    },
    transaction: {
@@ -13,7 +13,7 @@ window.advocate_things_data = {
 };
 </script>
 <script id="advocate-things-script"
-        src="https://d22stxronnwc65.cloudfront.net/sdk.js?key=e2a718d19b7d8fe34bf070e282dfdde9"
+        src="https://d22stxronnwc65.cloudfront.net/sdk.js?key=174b2560ec313bab19d9c9f82b7a849b"
         type="text/javascript"></script>
 </head>
 
