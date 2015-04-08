@@ -4,7 +4,7 @@
 <script>
 window.advocate_things_data = {
    _at: {
-     touchpoint_name: 'tp_garage',
+     touchpointName: 'tp_garage',
      email: 'friend@digitalanimal.com'
    },
    transaction: {
