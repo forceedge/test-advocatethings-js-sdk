@@ -22,7 +22,7 @@ The second page
 	<script type="text/javascript">
 	AT.addEventListener(AT.Events.TouchpointSaved, function (meta) {
 		console.log(meta);
-		jQuery('#populate').attr('href', meta.user.image);
+		jQuery('#populate').attr('src', meta.user.image);
 	});
 	</script>
 </body>
