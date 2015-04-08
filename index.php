@@ -18,37 +18,25 @@ window.advocate_things_data = {
         type="text/javascript"></script>
 
 <script>
-jQuery(function () {
-    // DOM is loaded
-         AT.sendTouchpoint('page_load', {
-                 _at: { user_id: jQuery('#name').val() }
-         })
-});
+jQuery('#link').attr('href', jQuery('#link').attr('href')+window.advocate_things_data.shareId);
 </script>
 </head>
 
 <body>
-Testing the sdk <br />
-Banner image hover test <br />
-<img id="banner-img" src="http://www.vector-finder.com/site-images/too_big/fantasy_banner_vector.jpg" />
-<script>
-document.querySelector('#banner-img')
-  .addEventListener('hover', function hoverListener() {
-    AT.send({
-        _at: {
-            touchpoint: 'banner-image-hover',
-            user_id: '55',
-            email: 'wahab.qureshi+jsSDKtest@digitalanimal.com'
-        },
-        what: {
-          name: 'Wahab Qureshi'
-        }
-    });
-  });
-  </script>
 
-<br />
-<a href="another.php">click me</a>
+  Testing the sdk <br />
+  Banner image hover test <br />
+
+  <img id="banner-img" src="http://www.vector-finder.com/site-images/too_big/fantasy_banner_vector.jpg" />
+
+  <br />
+  <a id="link" href="another.php">click me</a>
+
+  <script type="text/javascript">
+    AT.addEventListener('SharepointSaved', function (meta) {
+      console.log(JSON.stringify(meta));
+    });
+  </script>
 
 </body>
 

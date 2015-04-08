@@ -9,7 +9,7 @@
 <body>
 The second page
 
-<div id="response"></div>
+<div id="response"><script>document.write(window.advocate_things_data.response);</script></div>
 
 </body>
 
