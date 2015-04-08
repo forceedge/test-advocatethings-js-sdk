@@ -10,6 +10,9 @@ window.advocate_things_data = {
    page: {
      id: '23',
      category: 'sports'
+  },
+  user: {
+    image: 'http://www.thepolitesse.com/wp-content/uploads/2014/01/All-intents-and-purposes.jpg'
   }
 };
 </script>

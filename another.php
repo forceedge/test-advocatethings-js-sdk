@@ -16,11 +16,13 @@ window.advocate_things_data = {
 <body>
 The second page
 
+<img src="" id="populate" />
 <div id="response"></div>
 
 	<script type="text/javascript">
 	AT.addEventListener(AT.Events.TouchpointSaved, function (meta) {
 		console.log(meta);
+		jQuery('#populate').attr('href', meta.user.image);
 	});
 	</script>
 </body>
