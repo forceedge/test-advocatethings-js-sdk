@@ -5,6 +5,9 @@
 window.advocate_things_data = {
    _at: {
      touchpointName: 'sameUrlTouchpointandSharepoint'
+   },
+   transaction: {
+   	 amount: 101
    }
 };
 </script>
