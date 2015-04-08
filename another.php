@@ -9,8 +9,13 @@
 <body>
 The second page
 
-<div id="response"><script>document.write(window.advocate_things_data.response);</script></div>
+<div id="response"></div>
 
+	<script type="text/javascript">
+	AT.addEventListener(AT.Events.TouchpointSaved, function (meta) {
+		console.log(meta);
+	});
+	</script>
 </body>
 
 </html>
